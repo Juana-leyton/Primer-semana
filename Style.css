@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.titulos {
+    color: red;
+    background-color: black;
+}
+.flex-content {
+    height: 1000px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    background-color: black;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.opt-menu {
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.opt-menu li {
+    list-style: none;
+    width: 15%;
+    color: whitesmoke;
+}
+
+.opt-menu a:hover {
+    background-color: skyblue;
+    border: 10px skyblue solid;
+    border-radius: 5px;
+
+}
+
+.container{
+    margin: 5% 10% 3% 8%;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+.main-charecters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.charecter {
+    width: 25%;
+    margin: 3%;
+    border: 2px #E6E6E6 solid;
+    border-right:5px #e6e6e6 solid;
+    border-bottom: 5px #e6e6e6 solid;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.charecter img {
+    width: 90%;
+    border-radius: 3%;
+}
+.charecter div {
+    width: 90%;
+    text-align: justify;
+    padding: 5%;
+    
+}
+
+.charecter h2 {
+    font-weight: bold;
+    margin-bottom: 3%;
+   
+}
+.container h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    padding-block-end: 3%;
+}
+
+footer{
+
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 80px;
+    font-family: 'Indie Flower', cursive;
+}
+footer p{
+    padding-top: 2%;
+}
+.fa-heart {
+    color: red;
+}
+
+.opt-menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
