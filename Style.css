@@ -87,6 +87,14 @@ body{
     margin-bottom: 3%;
    
 }
+a{
+    font-weight: bold;
+    margin-bottom: 3%;
+    color: black;
+    background-color: thistle;
+    border: black solid 2px;
+    border-radius: 30px;
+}
 .container h1 {
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -113,3 +121,4 @@ footer p{
     text-decoration: none;
     color: whitesmoke;
 }
+
